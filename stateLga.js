@@ -939,6 +939,7 @@ function stateValue(state)
     // Get the state value and use it to filter the lgas
     const value = state.value
 
+    // Set the element innerHtml to empty
     lgaElement.innerHTML = '';
    
     for(lga of lgas[value])
@@ -946,7 +947,7 @@ function stateValue(state)
       const option = document.createElement('option');
       option.value = lga;
       option.innerHTML = lga;
-      lgaElement.append(option);
+      lgaElement.appendChild(option);
       
     }
     
