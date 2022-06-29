@@ -12,9 +12,9 @@
 
 <p>Copy this cdn link and paste it before the close of the body in your html file where the form is placed</p>
 
-`<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>`
+`<script src="https://cdn.jsdelivr.net/gh/Tijanieneye10/nigeria-states-lgas@latest/stateLga.min.js"></script>`
 
-* Create a select form tag and give it an id of state.
+* Create a select form tag and give it an id of state and add `onchange="stateValue(this)"`.
 
 * Create another select form tag and give it an id of of lga.
 
